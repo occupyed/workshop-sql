@@ -30,10 +30,10 @@ CREATE TABLE Persons (
 );
 
 -- check metadata
-DESCRIBE table_name;
+DESCRIBE Persons;
 
 -- check metadata
-SHOW COLUMNS FROM table_name;
+SHOW COLUMNS FROM Persons;
 
 
 -- Create table from existing table
@@ -47,10 +47,10 @@ TRUNCATE TABLE table_name;
 
 -- Alter table
 -- add column
-ALTER TABLE Customers ADD email varchar(255);
+ALTER TABLE Persons ADD email varchar(255);
 
 -- delete column
-ALTER TABLE Customers DROP COLUMN email;
+ALTER TABLE Persons DROP COLUMN email;
 
 -- Change data types
 ALTER TABLE Persons MODIFY COLUMN date_of_birth date;
