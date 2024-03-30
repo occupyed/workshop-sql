@@ -42,5 +42,3 @@ SELECT DATE(order_date) AS order_day, SUM(quantity * price) AS daily_sales
 FROM sales
 GROUP BY order_day;
 
-
-

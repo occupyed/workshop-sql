@@ -1,3 +1,5 @@
+-- use classicmodels.sql
+
 -- syntax
 
 SELECT DISTINCT

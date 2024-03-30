@@ -1,3 +1,5 @@
+-- use classicmodels.sql
+
 /*
 SELECT 
     select_list

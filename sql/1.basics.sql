@@ -49,7 +49,7 @@ TRUNCATE TABLE table_name;
 -- add column
 ALTER TABLE Customers ADD email varchar(255);
 
---  delete column
+-- delete column
 ALTER TABLE Customers DROP COLUMN email;
 
 -- Change data types
@@ -57,4 +57,3 @@ ALTER TABLE Persons MODIFY COLUMN date_of_birth date;
 
 -- rename column;
 ALTER TABLE table_name RENAME COLUMN old_column_name TO new_column_name;
-
