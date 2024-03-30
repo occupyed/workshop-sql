@@ -1,5 +1,7 @@
 import mysql.connector
 
+# use studentdb
+
 def connect_to_database():
     try:
         # Establish a connection to the MySQL database
