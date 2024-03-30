@@ -10,7 +10,7 @@ WHERE
     search_condition
 ORDER BY 
     sort_expression;
-    
+
 
 -- without distict
 SELECT 

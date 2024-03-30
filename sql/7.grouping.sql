@@ -1,3 +1,7 @@
+CREATE DATABASE SalesDB;
+
+USE DATABASE SalesDB;
+
 -- Create the sales table
 CREATE TABLE sales (
     order_id INT PRIMARY KEY,
