@@ -1,6 +1,6 @@
 CREATE DATABASE SalesDB;
 
-USE DATABASE SalesDB;
+USE SalesDB;
 
 -- Create the sales table
 CREATE TABLE sales (
